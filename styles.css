@@ -132,7 +132,7 @@
     color: white;
     background-color: dodgerblue;
     font-weight: bold;
-    font-size: 0.5rem;
+    font-size: 1rem;
     margin: 12px 0;
     cursor: pointer;
 }
@@ -149,7 +149,7 @@
 
 #emailHelp{
     font-size: 0.5rem;
-    color: midnightblue;
+    color: rgb(201, 201, 201);
     margin: 0 5px;
     border-radius: 3px 0 0 0;
 }
@@ -240,6 +240,8 @@ p{
 .cross{
     margin-left: 180px;
     margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .headerimg{
@@ -271,6 +273,9 @@ p{
 }
 .imagethanks{
     width: 80vw;
+}
+h2{
+    font-style: italic;
 }
 
 
