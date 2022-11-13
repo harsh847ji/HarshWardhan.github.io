@@ -265,6 +265,13 @@ p{
 .blogitem img{
     width: 80vw;
 }
+.thanks{
+    margin: 0;
+    padding: 0;
+}
+.imagethanks{
+    width: 80vw;
+}
 
 
 
