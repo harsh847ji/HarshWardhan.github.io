@@ -5,6 +5,8 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: rgb(22, 22, 22);
+    color: rgba(255, 255, 255, 0.863);
 }
 
 .sidebar{
@@ -33,7 +35,7 @@
     /* background-color: yellow; */
     width: 90vw;
     height:auto;
-    padding: 23px;
+    /* padding: 23px; */
 }
 .container{
     display: flex;
@@ -41,7 +43,7 @@
 .infoContainer{
     /* background-color: rgb(255, 0, 179); */
     height: fit-content;
-    margin: 144px auto;
+    margin: 300px auto;
     display: flex;
     justify-content:space-around;
 }
@@ -173,14 +175,11 @@ h1{
 p{
     font-family: 'Source Code Pro', monospace;
 }
-.intro{
-    margin: 88px 88px;
-}
+
 .intro h2{
     font-family: 'Fira Sans', sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 12px;
-
 }
 .intro p{
     font-family: 'Source Code Pro', monospace;
@@ -188,10 +187,7 @@ p{
     font-size: 1.5rem;
     font-weight: 500;
 }
-.skillcontainer{
-    padding: 12px;
 
-}
 .skillitem{
     display: flex;
     align-items: center;
@@ -237,13 +233,37 @@ p{
     cursor: pointer;
     top: 10px;
     left: 10px;
-
 }
 
 .cross{
     margin-left: 180px;
     margin-top: 10px;
 }
+
+.headerimg{
+    /* margin: 0; */
+    /* padding: 0; */
+    width: 100vw;
+    height: 55vw;
+}
+.introheaderimg{
+    width: 100vw;
+    height: 55vw;
+}
+.introcontent{
+    margin-top: 40px;
+    margin-left: 30px;
+    height: 90vh;
+}
+.glasscard{
+    padding: 12px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.skillcontainer{
+    padding: 12px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
 
 
 
