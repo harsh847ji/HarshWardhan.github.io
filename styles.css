@@ -165,7 +165,9 @@
     margin: 88px 88px;
 }
 .blogitem{
-    margin: 20px;
+    margin-left: 20px;
+    /* margin-right: 20px;
+    padding: 20px; */
     font-family: 'Fira Sans', sans-serif;
 }
 h1{
@@ -255,13 +257,13 @@ p{
     margin-left: 30px;
     height: 90vh;
 }
-.glasscard{
-    padding: 12px;
-    border: 1px solid rgb(0, 0, 0);
-}
 .skillcontainer{
     padding: 12px;
     border: 1px solid rgb(0, 0, 0);
+}
+
+.blogitem img{
+    width: 80vw;
 }
 
 
