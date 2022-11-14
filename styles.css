@@ -278,6 +278,28 @@ h2{
     font-style: italic;
 }
 
+.appdevelopment{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+}
 
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    
+}
+.serviceimg{
+    width: 1000px;
+    margin: 20px 0;
+}
+.servicesheaderimg{
+    width: 100vw;
+    height: 40vh;
+}
+.serviceheading{
+    font-size: 100px;
+    text-align-last: center;
+}
 
 
