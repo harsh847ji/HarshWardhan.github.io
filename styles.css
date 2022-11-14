@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     background-color: rgb(22, 22, 22);
-    color: rgba(255, 255, 255, 0.863);
+    color: rgba(255, 255, 255, 0.86);
 }
 
 .sidebar{
@@ -33,7 +33,7 @@
 }
 .main{
     /* background-color: yellow; */
-    width: 90vw;
+    width: 100vw;
     height:auto;
     /* padding: 23px; */
 }
@@ -172,7 +172,7 @@
 }
 h1{
     font-family: 'Fira Sans', sans-serif;
-    margin: 23px;
+    margin: 20px;
 }
 p{
     font-family: 'Source Code Pro', monospace;
@@ -282,24 +282,88 @@ h2{
     display: flex;
     flex-direction: column;
     margin: 40px 0;
+    width: 80vw;
+    align-items: center;
+    /* background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.2); */
+  
 }
 
 .maincontainer{
     display: flex;
     flex-direction: column;
-    
+    /* margin: 10vw; */
+    width: 80vw;
 }
 .serviceimg{
-    width: 1000px;
+    width: 60vw;
     margin: 20px 0;
+    border-radius: 10px;
+    filter: drop-shadow(10px 10px 30px rgb(0, 0, 0))
 }
 .servicesheaderimg{
     width: 100vw;
     height: 40vh;
 }
 .serviceheading{
-    font-size: 100px;
-    text-align-last: center;
+    font-size: 5rem;
+    text-align: center;
+    justify-content: center;
 }
+/* .maincontainer h2,.serviceinfo{
+    background-color: rgba(255, 0, 0, 0);
+    color: rgb(0, 0, 0);
+} */
+
+
+.py-3 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+.my-4 {
+    margin-top: 1.5rem!important;
+    margin-bottom: 1.5rem!important;
+}
+
+
+
+.iconList {
+    display: flex!important;
+    margin: 0;
+    justify-content: flex-end!important;
+    list-style: none;
+    width: 33.33333333%;
+
+    
+}
+
+.footer{
+    display: flex;
+    margin: 2rem;
+    justify-content: space-between!important;
+    width: 100%;
+    align-items: center!important;
+    padding-top: 20px;
+    border-top: 2px solid white;
+    margin-bottom: 50px;
+}
+
+.leftFooter{
+    
+    width: 33.3%;
+}
+.ms-3{
+    margin-left: 10px;
+}
+
+.copyright{
+    
+}
+
+
+
+
 
 
