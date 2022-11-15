@@ -298,8 +298,8 @@ h2{
     width: 80vw;
 }
 .serviceimg{
-    width: 60vw;
-    margin: 20px 0;
+    width: 80vw;
+    margin: 10px 0;
     border-radius: 10px;
     filter: drop-shadow(10px 10px 30px rgb(0, 0, 0))
 }
@@ -316,7 +316,9 @@ h2{
     background-color: rgba(255, 0, 0, 0);
     color: rgb(0, 0, 0);
 } */
-
+.serviceinfo{
+    font-size: 1.2rem;
+}
 
 .py-3 {
     padding-top: 1rem!important;
@@ -356,10 +358,6 @@ h2{
 }
 .ms-3{
     margin-left: 10px;
-}
-
-.copyright{
-    
 }
 
 
